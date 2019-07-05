@@ -1,0 +1,15 @@
+{
+  "name": "now-php-bridge-soap",
+  "version": "1.0.1",
+  "description": "now php builder with soap extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dialnco",
+  "license": "MIT",
+  "dependencies": {
+    "@now/build-utils": "^0.7.4",
+    "fastcgi-client": "0.0.1"
+  }
+}
