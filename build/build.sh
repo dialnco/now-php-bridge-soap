@@ -12,5 +12,11 @@ docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/mbstring.so > ..
 docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/mysqli.so > ../native/modules/mysqli.so
 docker run now-php-docker-image /bin/cat /usr/lib64/mysql/libmysqlclient.so.16 > ../native/modules/libmysqlclient.so.16
 docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/soap.so > ../native/modules/soap.so
+docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/xml.so > ../native/modules/xml.so
+docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/dom.so > ../native/modules/dom.so
+docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/xmlwriter.so > ../native/modules/xmlwriter.so
+docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/xmlreader.so > ../native/modules/xmlreader.so
+docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/xsl.so > ../native/modules/xsl.so
+docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/wddx.so > ../native/modules/wddx.so
 docker run now-php-docker-image /bin/cat /usr/lib64/php/modules/opcache.so > ../native/modules/opcache.so
 chmod +x ../native/php-fpm

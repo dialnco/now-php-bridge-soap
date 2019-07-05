@@ -1,6 +1,6 @@
 {
   "name": "now-php-bridge-soap",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "now php builder with soap extension",
   "main": "index.js",
   "scripts": {
