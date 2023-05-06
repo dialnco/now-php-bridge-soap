@@ -9,7 +9,7 @@
   "author": "dialnco",
   "license": "MIT",
   "dependencies": {
-    "@now/build-utils": "^0.7.4",
+    "@now/build-utils": "^2.7.0",
     "fastcgi-client": "0.0.1"
   }
 }
